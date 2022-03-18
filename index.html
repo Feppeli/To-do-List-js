@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>To-do List</title>
+</head>
+<body>
+    <nav>
+        <h2>To-do</h2>
+    </nav>
+    <main>
+        <!-- Caixa de tarefas-->
+        <input id="searchBox"
+        name="searchBox"
+        type="text"
+        placeholder="Digite a sua tarefa"
+        value=""
+        >
+
+        <!-- Botão de add-->
+        <button id="butao" onclick="add()"> Add </button>
+    </main>
+
+    <!--  -->
+    <section id="tarefas">
+    <!-- <label class="toDoItem">
+            <input id="check" type="checkbox">
+            <div>Teste de tarefa </div>
+            <button id="apagar" >X</button>
+        </label>-->
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

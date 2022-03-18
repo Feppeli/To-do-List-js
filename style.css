@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background: #89aad5;
+}
+
+/* [ NAV ]*/
+nav{
+    background: #4C7AC8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+nav h2{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBox{
+    background: #B2C7E6;
+    border: none;
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+    font-family: 'Metal', cursive;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* [ Botão pra adicionar ] */
+#butao{
+    margin-top: 165vh;
+    margin-left: 40vh;
+    position: fixed;
+    padding: 15px;
+    border-radius: 20px;
+    background: #4C7AC8;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* [box das tarefas] */
+#tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* [ Tarefas ] */
+.toDoItem{
+    margin-bottom: 5px;
+    fill-opacity: 70%;
+    background: #B2C7E6;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 50vh;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+/* [ Botão check ] */
+#check{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* [ botão apagar ] */
+#apagar{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#tarefas div{
+    font-family: 'Metal', cursive;
+}
