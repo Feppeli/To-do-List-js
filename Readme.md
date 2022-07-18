@@ -14,4 +14,4 @@ Esse projeto foi um desafio técnico cujo o requesito era que os espaços de ent
 ## Desenvolvimento
 
 - desenvolvido por [Felipe Teixeira](https://www.instagram.com/lipecode/)
-- [acesse]([https://feppeli.github.io/signup-desafio/](https://feppeli.github.io/To-do-List-js/)
+- [acesse](https://feppeli.github.io/signup-desafio/](https://feppeli.github.io/To-do-List-js/)
